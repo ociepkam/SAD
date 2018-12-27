@@ -1,3 +1,3 @@
 TRIAL_NR,TASK_NR,EXPERIMENTAL,ACC,RT,ANSWER_TYPE,ANSWERS_ORDER
-1,images/train/2_gr1,False,False,,pic2_nonliving_nonrelated,"['target_living', 'pic2_nonliving_nonrelated', 'distractor_living_related', 'pic1_living_related']"
-2,images/train/1_gr1,False,False,1.9166727430001629,pic1_living_related,"['pic2_nonliving_nonrelated', 'distractor_living_related', 'target_living', 'pic1_living_related']"
+1,images/train/1,False,False,1.2220615800033556,pic1_living_related,"['distractor_living_related', 'pic2_nonliving_nonrelated', 'pic1_living_related', 'target_living']"
+2,images/train/2,False,False,1.0811260790069355,pic1_living_related,"['pic2_nonliving_nonrelated', 'distractor_living_related', 'target_living', 'pic1_living_related']"

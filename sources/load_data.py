@@ -34,4 +34,4 @@ def randomization(n1=6, n2=12):
 
 
 def load_train(n=2):
-    return list(choice([join("images", "train", f) for f in listdir(join("images", "train"))], n, replace=False))
+    return list([join("images", "train", f) for f in listdir(join("images", "train"))][:n])

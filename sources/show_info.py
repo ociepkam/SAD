@@ -14,7 +14,7 @@ def read_text_from_file(file_name, insert=''):
     if not isinstance(file_name, str):
         raise TypeError('file_name must be a string')
     msg = list()
-    with codecs.open(file_name, encoding='utf-8', mode='r') as data_file:
+    with open(file_name, encoding='utf-8', mode='r') as data_file:
         for line in data_file:
             if not line.startswith('#'):  # if not commented line
                 if line.startswith('<--insert-->'):
