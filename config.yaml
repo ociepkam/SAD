@@ -1,16 +1,16 @@
 TRAINING_TRIALS: 2
-EXPERIMENT_TRIALS_PART1: 6
-EXPERIMENT_TRIALS_PART2: 12
+EXPERIMENT_TRIALS_PART1: 6 # number of trials from set A (\images\Gr 1) and B(\images\Gr 2), half from each. Remaining items from sets A and B are presented in part 3
+EXPERIMENT_TRIALS_PART2: 24 # number of trial from set C(\images\Gr 3) and DB(\images\Gr 4) fully random order
 
 # feedback
 TRAINING_FEEDBACK: True
 EXPERIMENT_FEEDBACK: False
 FEEDBACK_SHOW_TIME: 2
 FEEDBACK_SIZE: 50
-FEEDBACK_POS: [0, 400]
+FEEDBACK_POS: [0, 400] # [x, y]
 
 
-# time in secunds
+# time in seconds
 STIM_TIME: 10
 WAIT_TIME: 1
 
@@ -24,13 +24,13 @@ TASK_B_SIZE: 400
 TASK_B_POS: [250, 200] # [x, y]
 
 ANSWERS_SIZE: 150
-ANSWERS_POS: [0, -200]
-VIZ_OFFSET: [30, 30]
+ANSWERS_POS: [0, -200] # [x, y]
+VIZ_OFFSET: [30, 30] # [x, y]
 N_ANSWERS_IN_ROW: 4
 
 # accept box
-ACCEPT_BOX_POS: [500, -300]
-ACCEPT_BOX_SIZE: [100, 50]
+ACCEPT_BOX_POS: [500, -300] # [x, y]
+ACCEPT_BOX_SIZE: [100, 50] # [x, y]
 ACCEPT_BOX_TEXT: Dalej
 ACCEPT_BOX_TEXT_FEEDBACK: Sprawdź
 START_BOX_COLOR: grey
@@ -39,8 +39,7 @@ END_BOX_COLOR: white
 END_TEXT_COLOR: black
 
 # clock
-## show clock n second before trial end
-SHOW_CLOCK: -1
-CLOCK_POS: [0, 0]
+SHOW_CLOCK: -1 # show clock n second before trial end. If you don't want clock set -1
+CLOCK_POS: [0, 0] # [x, y]
 CLOCK_SIZE: 50
 
